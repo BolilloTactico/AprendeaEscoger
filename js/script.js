@@ -6,7 +6,7 @@ const universidades = [
         imagen: "imagenesmagicasdelasmagicas/IPN.jpg",
         carreras: "Ingeniería biotecnológica, Ingeniería en Robótica Industrial, Ingeniería Fotónica, Ingeniería en Movilidad Urbana.",
         descripcion: "Es una institución pública de educación superior reconocida en México por su enfoque en la investigación científica, la innovación tecnológica y la formación de profesionales especializados. Cuenta con diferentes unidades académicas en el país y ofrece programas profesionales en áreas como ingeniería, ciencias, medicina, tecnología, administración y ciencias sociales.",
-        carreranombre1: "Ingeniería biotecnológica",
+        carreranombre1: "Ingeniería Biotecnológica",
         carreraarea1: "Ingeniería y Ciencias Físico-Matemáticas.",
         carreraduracion1: "9 semestres",
         carreradescripcion1:"Combina conocimientos de biología, química, genética e ingeniería para desarrollar productos y procesos mediante organismos vivos, células o sistemas biológicos. Su objetivo es crear soluciones que beneficien sectores como la salud, la industria alimentaria, la agricultura y el medio ambiente.",
