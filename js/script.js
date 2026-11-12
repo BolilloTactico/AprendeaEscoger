@@ -4,7 +4,7 @@ const universidades = [
     {
         nombre: "Instituto Politécnico Nacional",
         imagen: "imagenesmagicasdelasmagicas/IPN.jpg",
-        carreras: "Ingeniería biotecnológica, Ingeniería en Robótica Industrial, Ingeniería Fotónica, Ingeniería en Movilidad Urbana.",
+        carreras: "Ingeniería Biotecnológica, Ingeniería en Robótica Industrial, Ingeniería Fotónica, Ingeniería en Movilidad Urbana.",
         descripcion: "Es una institución pública de educación superior reconocida en México por su enfoque en la investigación científica, la innovación tecnológica y la formación de profesionales especializados. Cuenta con diferentes unidades académicas en el país y ofrece programas profesionales en áreas como ingeniería, ciencias, medicina, tecnología, administración y ciencias sociales.",
         carreranombre1: "Ingeniería biotecnológica",
         carreraarea1: "Ingeniería y Ciencias Físico-Matemáticas.",
