@@ -3,6 +3,7 @@ const universidades = [
 
     {
         nombre: "Instituto Politécnico Nacional",
+        link: "https://www.ipn.mx/",
         imagen: "imagenesmagicasdelasmagicas/IPN.jpg",
         carreras: "Ingeniería Biotecnológica, Ingeniería en Robótica Industrial, Ingeniería Fotónica, Ingeniería en Movilidad Urbana.",
         descripcion: "Es una institución pública de educación superior reconocida en México por su enfoque en la investigación científica, la innovación tecnológica y la formación de profesionales especializados. Cuenta con diferentes unidades académicas en el país y ofrece programas profesionales en áreas como ingeniería, ciencias, medicina, tecnología, administración y ciencias sociales.",
@@ -25,6 +26,7 @@ const universidades = [
     },
     {
         nombre: "Universidad de Guadalajara",
+        link: "https://www.udg.mx/",
         imagen: "imagenesmagicasdelasmagicas/Guadalajara.png",
         carreras: "Ingeniería en Videojuegos, Ingeniería en Nanotecnología, Licenciatura en Arquitectura, Licenciatura en Psicología.",
         descripcion: "Es una institución pública de educación superior reconocida por su trayectoria académica, su compromiso con la investigación, la innovación y el desarrollo científico y tecnológico. Cuenta con diversos centros universitarios distribuidos en el estado de Jalisco y ofrece programas educativos en áreas como ingeniería, ciencias de la salud, ciencias sociales, humanidades, negocios, arquitectura, arte y diseño. Además, se distingue por su contribución al desarrollo cultural, científico y social de México.",
@@ -48,6 +50,7 @@ const universidades = [
     {
         nombre: "Tecnológico de Monterrey",
         imagen: "imagenesmagicasdelasmagicas/Tec.png",
+        link: "https://tec.mx/es",
         carreras: "Ingeniería en Biotecnología, Ingeniería en Robótica y Sistemas Inteligentes, Ingeniería en Electrónica y Semiconductores, Licenciatura en Urbanismo.",
         descripcion: "Es una institución privada de educación superior reconocida por su enfoque en la innovación, el emprendimiento, la investigación y la formación tecnológica. Cuenta con diferentes campus en México y ofrece programas profesionales en áreas como ingeniería, ciencias, negocios, arquitectura, arte, diseño y ciencias sociales.",
         carreranombre1: "Ingeniería en Biotecnología",
@@ -69,6 +72,7 @@ const universidades = [
     },
     {
         nombre: "Universidad Autónoma de México",
+        link: "https://www.unam.mx/",
         imagen: "imagenesmagicasdelasmagicas/UNam2.png",
         carreras: "Pedadogía, Ingeniería Aeroespacial, Física Biomédica, Arquitectura de Paisaje.",
         descripcion: "Es una de las instituciones académicas más importantes, grandes y reconocidas de México y de Iberoamérica. Destaca por su excelencia en la investigación científica, humanística y tecnológica, así como por su amplia oferta cultural y deportiva. Cuenta con diversos planteles (como Ciudad Universitaria, facultades, escuelas nacionales superiores y CCHs/preparatorias), y opera bajo un modelo público y autónomo.",
@@ -132,8 +136,10 @@ function mostrarUniversidad(indice) {
     document.getElementById("informacion").innerHTML = `
 
         <div class="info-panel">
+            <a href="${uni.link}">
+                <img src="${uni.imagen}" alt="${uni.nombre}">
+            </a>
 
-            <img src="${uni.imagen}" alt="${uni.nombre}">
 
             <div>
 
